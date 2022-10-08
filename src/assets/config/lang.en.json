@@ -1,0 +1,106 @@
+{
+   "MenuBar": {
+      "noConnecting": "Not Connected",
+      "Connecting": "Real Time Connected",
+      "menuList": {
+         "inboundAgent": "Inbound Agent Monitor",
+         "inboundChannel": "Inbound Channel Monitor",
+         "inboundQueue": "Inbound Queue Monitor"
+      }
+    },
+    "MainWidget": {
+      "OfferedCalls": "Offered Calls",
+      "WaitingCalls": "Waiting Calls",
+      "AnsweredCalls": "Answered Calls",
+      "AbandonedCalls": "Abandoned Calls",
+      "PerAbandonedCalls": "% Abandoned Calls"
+    },
+    "SubWidget": {
+      "AgentReadyInQueue": "Agent Ready in Queue",
+      "AgentInUsed": "Agent In Used",
+      "AgentOnHold": "Agent On Hold",
+      "AgentPaused": "Agent Paused",
+      "MissedCalls": "Missed Calls",
+      "AvgTalkTime": "Avg. Talk Time",
+      "HandleCalls": "% Handle Calls",
+      "OfferedCalls": "Offered Calls",
+      "WaitingCalls": "Waiting Calls",
+      "AnsweredCalls": "Answered Calls",
+      "AbandonedCalls": "Abandoned Calls",
+      "PerAbandonedCalls": "% Abandoned Calls"
+    },
+    "Widget": {
+      "OfferedCalls": "Offered Calls",
+      "WaitingCalls": "Waiting Calls",
+      "AnsweredCalls": "Answered Calls",
+      "AbandonedCalls": "Abandoned Calls",
+      "PerAbandonedCalls": "% Abandoned Calls",
+      "AgentReadyInQueue": "Agent Ready in Queue",
+      "AgentInUsed": "Agent In Used",
+      "AgentOnHold": "Agent On Hold",
+      "AgentPaused": "Agent Paused",
+      "MissedCalls": "Missed Calls",
+      "AvgTalkTime": "Avg. Talk Time",
+      "HandleCalls": "% Handle Calls"
+    },
+    "InboundAgentMonitor": {
+       "headTitle": "Inbound Agent Monitor",
+       "title": "Agents - Statistics",
+       "rowDataLabel" :{
+        "1" : "SP Status",
+        "2" : "Status Time",
+        "3" : "Last hangup",
+        "4" : "Team",
+        "5" : "Agent Name",
+        "6" : "Adherence Time",
+        "7" : "Total Transfer",
+        "8" : "Total Answer",
+        "9" : "Total Miss call",
+        "10" : "Max Talk",
+        "11" : "Avg. Talk",
+        "12" : "Total Talk Time",
+        "13" : "Max WT",
+        "14" : "Avg. WT",
+        "15" : "Total WT"
+       }
+    },
+    "InboundChannelMonitor": {
+       "headTitle": "Inbound Channel Monitor",
+       "title": "Channel - Statistics",
+       "rowDataLabel" :{
+         "1" : "Group Channel",
+         "2" : "Channel No.",
+         "3" : "Channel Name",
+         "4" : "Offered Calls",
+         "5" : "Waiting Calls",
+         "6" : "Answered Calls",
+         "7" : "Abandoned Calls",
+         "8" : "% Handle Calls",
+         "9" : "% Abandoned Calls"
+       }
+    },
+    "InboundQueueMonitor": {
+      "headTitle": "Inbound Queue Monitor",
+       "title": "Queue - Statistics",
+       "rowDataLabel" :{
+         "1" : "Queue No.",
+         "2" : "Queue Name",
+         "3" : "Agent Logged in Queue",
+         "4" : "Agent Ready in Queue",
+         "5" : "Agent In Used",
+         "6" : "Agent On Hold",
+         "7" : "Agent Paused",
+         "8" : "% Service Level",
+         "9" : "Offered Calls",
+         "10" : "Waiting Calls",
+         "11" : "Answered Calls",
+         "12" : "Abandoned Calls"
+       }
+    },
+    "___note update" : {
+      "app_name" : "monitor 2.0",
+      "app_version" : "V1.0.0",
+      "last_update" : "2020-01-06 17:00",
+      "last_update_by" : "prasong.pu"
+    }
+}

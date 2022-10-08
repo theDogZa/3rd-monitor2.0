@@ -1,0 +1,28 @@
+{
+    "QueueMonitor": {
+        "1810": {"name":"1810","desc":"DRP"},
+        "1010": {"name":"1010","desc":"OSL"},
+        "1900": {"name":"1900","desc":"TVS"},
+        "1910": {"name":"1910","desc":"DRTV"},
+        "1800": {"name":"1800","desc":"SUPPORT-3201"},
+        "1801": {"name":"1801","desc":"SUPPORT-3202"},
+        "1802": {"name":"1802","desc":"SUPPORT-3203"},
+        "1803": {"name":"1803","desc":"SUPPORT-3204"},
+        "1804": {"name":"1804","desc":"SUPPORT-3205"},
+        "1805": {"name":"1805","desc":"SUPPORT-3206"},
+        "1806": {"name":"1806","desc":"SUPPORT-3207"},
+        "1807": {"name":"1807","desc":"SUPPORT-3208"},
+        "1808": {"name":"1808","desc":"SUPPORT-3209"},
+        "1809": {"name":"1809","desc":"SUPPORT-3210"},
+        "1911": {"name":"1911","desc":"CS call center"},
+        "1912": {"name":"1912","desc":"CS call center"},
+        "1920": {"name":"1920","desc":"LMD"},
+        "1921": {"name":"1921","desc":"LMD"}
+    },
+    "___note update" : {
+      "app_name" : "monitor 2.0",
+      "app_version" : "V1.0.0",
+      "last_update" : "2020-01-06 17:00",
+      "last_update_by" : "prasong.pu"
+    }
+}

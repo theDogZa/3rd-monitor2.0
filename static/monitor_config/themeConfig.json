@@ -1,0 +1,227 @@
+{
+    "configNavBar" : {
+        "_comment": {
+            "__color" : "options[String] : danger,warning,success,primary ,secondary,info,light,dark ,white,transparent",
+            "__IsUser" : "options[Boolean] : true(default),false"
+        },
+        "barColor": "white",
+        "btnMenuColor": "light",
+        "btnMenuIsUser": true,
+        "iconMonitorColor": "danger",
+        "iconUserOnlineColor": "success",
+        "iconUserOfflineColor": "danger",
+        "textConnectedOnlineColor": "success",
+        "textConnectedOfflineColor": "danger"
+    },
+    "configMainWidget": {
+        "_comment": {
+            "__loopWidget" : "options[int] : min = 1 to max = 5",
+            "__orderWidget" : "options[array] : name widget"
+        },
+        "NumLoopWidget": 5,
+        "orderWidget": [
+          "OfferedCalls","WaitingCalls","AnsweredCalls","AbandonedCalls","PerAbandonedCalls"
+        ],
+        "inboundAgent": {
+          "NumLoopWidget": 5,
+          "orderWidget": [
+            "OfferedCalls","WaitingCalls","AnsweredCalls","AbandonedCalls","PerAbandonedCalls"
+          ]
+        },
+        "inboundChannel": {
+          "NumLoopWidget": 5,
+          "orderWidget": [
+            "OfferedCalls","WaitingCalls","AnsweredCalls","AbandonedCalls","PerAbandonedCalls"
+          ]
+        },
+        "inboundQueue": {
+          "NumLoopWidget": 5,
+          "orderWidget": [
+            "AnsweredCalls","AbandonedCalls","PerAbandonedCalls","OfferedCalls","WaitingCalls"
+          ]
+        }
+    },
+    "configSubWidget" : {
+        "_comment": {
+            "__loopWidget" : "options[int] : min = 1 to max = 7",
+            "__orderWidget" : "options[array] : name widget"
+        },
+        "numLoopWidget": 7,
+        "orderWidget": [
+          "AgentReadyInQueue","AgentInUsed","AgentOnHold","AgentPaused","MissedCalls","AvgTalkTime","HandleCalls"
+        ],
+        "inboundAgent": {
+          "numLoopWidget": 7,
+          "orderWidget": [
+            "AgentReadyInQueue","AgentInUsed","AgentOnHold","AgentPaused"
+          ]
+        },
+        "inboundChannel": {
+          "numLoopWidget": 7,
+          "orderWidget": [
+            "AgentReadyInQueue","AgentInUsed","AgentOnHold","AgentPaused","MissedCalls","AvgTalkTime","HandleCalls"
+          ]
+        },
+        "inboundQueue": {
+          "numLoopWidget": 7,
+          "orderWidget": [
+            "AgentReadyInQueue","AgentInUsed","AgentOnHold","AgentPaused","MissedCalls","AvgTalkTime","HandleCalls"
+          ]
+        }
+    },
+    "configInboundAgent" : {
+        "_comment": {
+            "__color" : "options[String] : danger,warning,success,primary ,secondary,info,light,dark ,white,transparent",
+            "__isShow" : "options[Boolean] : true(default),false"
+        },
+        "barColor": "primary",
+        "isShowMenuBar": true,
+        "isShowMainWidget": true,
+        "isShowSubWidget": true
+    },
+    "configInboundChannel" : {
+        "_comment": {
+            "__color" : "options[String] : danger,warning,success,primary ,secondary,info,light,dark ,white,transparent",
+            "__isShow" : "options[Boolean] : true(default),false"
+        },
+        "barColor": "success",
+        "isShowMenuBar": true,
+        "isShowMainWidget": true,
+        "isShowSubWidget": true
+    },
+    "configInboundQueue" : {
+        "_comment": {
+            "__color" : "options[String] : danger,warning,success,primary ,secondary,info,light,dark ,white,transparent",
+            "__isShow" : "options[Boolean] : true(default),false"
+        },
+        "barColor": "success",
+        "isShowMenuBar": true,
+        "isShowMainWidget": true,
+        "isShowSubWidget": true
+    },
+    "widget": {
+        "_comment": {
+            "__color" : "options[String] : danger,warning,success,primary ,secondary,info,light,dark ,white,transparent",
+            "__icon" :  "options[String] : arrow-bottom-left,phone-ring,phone-hangup,call-missed,phone-missed,phone-settings,phone  on materialdesignicons.com",
+            "__format" : " 0 = x,xxx (default),2 = x,xxx.xx ,t = time "
+        },
+        "bankWidget":{
+            "widgetBgColor": "light",
+            "widgetTextColor": "light",
+            "widgetBorderColor": "",
+            "widgetIcon" : "",
+            "widgetIconColor": "",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "tempWidget":{
+          "widgetBgColor": "light",
+          "widgetTextColor": "light",
+          "widgetBorderColor": "",
+          "widgetIcon" : "",
+          "widgetIconColor": "",
+          "widgetDigiNumberFormat" : "0"
+        },
+        "OfferedCalls":{
+            "widgetBgColor": "primary",
+            "widgetTextColor": "white",
+            "widgetBorderColor": "",
+            "widgetIcon" : "arrow-bottom-left",
+            "widgetIconColor": "white",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "WaitingCalls":{
+            "widgetBgColor": "warning",
+            "widgetTextColor": "white",
+            "widgetBorderColor": "",
+            "widgetIcon" : "phone-ring",
+            "widgetIconColor": "white",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "AnsweredCalls":{
+            "widgetBgColor": "success",
+            "widgetTextColor": "white",
+            "widgetBorderColor": "",
+            "widgetIcon" : "phone-hangup",
+            "widgetIconColor": "white",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "AbandonedCalls":{
+            "widgetBgColor": "danger",
+            "widgetTextColor": "white",
+            "widgetBorderColor": "",
+            "widgetIcon" : "call-missed",
+            "widgetIconColor": "white",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "PerAbandonedCalls":{
+            "widgetBgColor": "danger",
+            "widgetTextColor": "white",
+            "widgetBorderColor": "",
+            "widgetIcon" : "call-missed",
+            "widgetIconColor": "white",
+            "widgetDigiNumberFormat" : "2"
+        },
+        "AgentReadyInQueue":{
+            "widgetBgColor": "white",
+            "widgetTextColor": "",
+            "widgetBorderColor": "success",
+            "widgetIcon" : "phone-hangup", 
+            "widgetIconColor": "success",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "AgentInUsed":{
+            "widgetBgColor": "white",
+            "widgetTextColor": "",
+            "widgetBorderColor": "info",
+            "widgetIcon" : "phone",
+            "widgetIconColor": "info",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "AgentOnHold":{
+            "widgetBgColor": "white",
+            "widgetTextColor": "",
+            "widgetBorderColor": "info",
+            "widgetIcon" : "phone-settings", 
+            "widgetIconColor": "info",
+            "widgetDigiNumberFormat" : "0"    
+        },
+        "AgentPaused":{
+            "widgetBgColor": "white",
+            "widgetTextColor": "",
+            "widgetBorderColor": "warning",
+            "widgetIcon" : "phone-settings",
+            "widgetIconColor": "warning",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "MissedCalls":{
+            "widgetBgColor": "white",
+            "widgetTextColor": "",
+            "widgetBorderColor": "danger",
+            "widgetIcon" : "call-missed",
+            "widgetIconColor": "danger",
+            "widgetDigiNumberFormat" : "0"
+        },
+        "AvgTalkTime":{
+            "widgetBgColor": "white",
+            "widgetTextColor": "",
+            "widgetBorderColor": "success",
+            "widgetIcon" : "phone-hangup",
+            "widgetIconColor": "success",
+            "widgetDigiNumberFormat" : "t"
+        },
+        "HandleCalls":{
+            "widgetBgColor": "white",
+            "widgetTextColor": "",
+            "widgetBorderColor": "success",
+            "widgetIcon" : "phone-hangup",
+            "widgetIconColor": "success",
+            "widgetDigiNumberFormat" : "2"
+        }
+    },
+    "___note update" : {
+      "app_name" : "monitor 2.0",
+      "app_version" : "V1.0.0",
+      "last_update" : "2020-01-06 17:00",
+      "last_update_by" : "prasong.pu"
+    }
+}

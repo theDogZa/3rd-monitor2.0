@@ -1,0 +1,66 @@
+{
+    "api": {
+       "_comment":  "api for tvd",
+      "queue" : {
+        "url" : "http://192.168.47.28:2998/",
+        "pathGet" : "/queue",
+        "pathOn" : "queue"
+      },
+      "channel" : {
+        "url" : "http://192.168.47.28:2998/",
+        "pathGet" : "/channel",
+        "pathOn" : "channel"
+      },
+      "instatQueue" : {
+        "url" : "http://192.168.47.28:2997/",
+        "pathGet" : "/instatqueue?limit=0",
+        "pathOn" : "instatqueue"
+      },
+      "instatChannel" : {
+        "url" : "http://192.168.47.28:2997/",
+        "pathGet" : "/instatchannel",
+        "pathOn" : "instatchannel"
+      },
+      "queueCall" : {
+        "url" : "http://192.168.47.28:2996/",
+        "pathGet" : "/queuecall",
+        "pathOn" : "queuecall"
+      },
+      "extension" : {
+        "url" : "http://192.168.47.28:2994/",
+        "pathGet" : "/extension",
+        "pathOn" : "extension"
+      },
+      "lastStatus" : {
+        "url" : "http://192.168.47.28:2995/",
+        "pathGet" : "/laststatus",
+        "pathOn" : "laststatus"
+      },
+      "users" : {
+        "url" : "http://192.168.47.24/",
+        "pathGet" : "oneapp-tv-direct/public/rest/user/all",
+        "pathOn" : ""
+      },
+      "oneappChannel" : {
+        "url" : "http://192.168.47.24/",
+        "pathGet" : "oneapp-tv-direct/public/rest/getChannelByCamp/all",
+        "pathOn" : ""
+      },
+      "oneappGroupChannel" : {
+        "url" : "http://192.168.47.24/",
+        "pathGet" : "oneapp-tv-direct/public/rest/getChannelGroupByCamp/all",
+        "pathOn" : ""
+      },
+      "BuJson" : {
+        "url" : "",
+        "pathGet" : "static/monitor_config/Bu.json",
+        "pathOn" : ""
+      }
+    },
+    "___note update" : {
+      "app_name" : "monitor 2.0",
+      "app_version" : "V1.0.0",
+      "last_update" : "2020-01-06 17:00",
+      "last_update_by" : "prasong.pu"
+    }
+}
